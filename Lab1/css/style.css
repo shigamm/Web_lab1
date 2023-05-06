@@ -1,0 +1,290 @@
+.center-container {
+  background: white;
+  color: #d30000;
+  width: 1000px;
+  margin: auto; }
+  .center-container .blok {
+    width: 760px;
+    margin: auto; }
+
+
+
+.frame {
+  margin: 26px;
+  width: 200px; }
+  .frame:nth-child(1) {
+    background-color: whitesmoke; }
+  .frame:nth-child(2) {
+    background-color: #ebebeb; }
+  .frame:nth-child(3) {
+    background-color: #e1e1e1; }
+  .frame:nth-child(4) {
+    background-color: #d7d7d7; }
+  .frame:nth-child(5) {
+    background-color: #cdcdcd; }
+  .frame:nth-child(6) {
+    background-color: #c3c3c3; }
+  .frame:nth-child(7) {
+    background-color: #b9b9b9; }
+  .frame:nth-child(8) {
+    background-color: #afafaf; }
+  .frame:nth-child(9) {
+    background-color: #a5a5a5; }
+  .frame:nth-child(10) {
+    background-color: #9b9b9b; }
+  .frame:nth-child(11) {
+    background-color: #919191; }
+  .frame:nth-child(12) {
+    background-color: #878787; }
+  .frame:nth-child(13) {
+    background-color: #7d7d7d; }
+  .frame:nth-child(14) {
+    background-color: #737373; }
+  .frame:nth-child(15) {
+    background-color: dimgray; }
+  .frame:nth-child(16) {
+    background-color: #5f5f5f; }
+  .frame:nth-child(17) {
+    background-color: #555555; }
+  .frame:nth-child(18) {
+    background-color: #4b4b4b; }
+  .frame:nth-child(19) {
+    background-color: #414141; }
+  .frame:nth-child(20) {
+    background-color: я #373737; }
+  .frame:nth-child(21) {
+    background-color: #2d2d2d; }
+  .frame:nth-child(22) {
+    background-color: #232323; }
+  .frame:nth-child(23) {
+    background-color: #191919; }
+  .frame:nth-child(24) {
+    background-color: #0f0f0f; }
+  .frame:nth-child(25) {
+    background-color: #050505; }
+  .frame:nth-child(26) {
+    background-color: black; }
+  .frame:nth-child(27) {
+    background-color: black; }
+  .frame:nth-child(28) {
+    background-color: black; }
+  .frame:nth-child(29) {
+    background-color: black; }
+  .frame:nth-child(30) {
+    background-color: black; }
+  .frame:nth-child(31) {
+    background-color: black; }
+  .frame:nth-child(32) {
+    background-color: black; }
+  .frame:nth-child(33) {
+    background-color: black; }
+  .frame:nth-child(34) {
+    background-color: black; }
+  .frame:nth-child(35) {
+    background-color: black; }
+  .frame:nth-child(36) {
+    background-color: black; }
+  .frame:nth-child(37) {
+    background-color: black; }
+  .frame:nth-child(38) {
+    background-color: black; }
+  .frame:nth-child(39) {
+    background-color: black; }
+  .frame:nth-child(40) {
+    background-color: black; }
+  .frame:nth-child(41) {
+    background-color: black; }
+  .frame:nth-child(42) {
+    background-color: black; }
+  .frame:nth-child(43) {
+    background-color: black; }
+  .frame:nth-child(44) {
+    background-color: black; }
+  .frame:nth-child(45) {
+    background-color: black; }
+  .frame:nth-child(46) {
+    background-color: black; }
+  .frame:nth-child(47) {
+    background-color: black; }
+  .frame:nth-child(48) {
+    background-color: black; }
+  .frame:nth-child(49) {
+    background-color: black; }
+  .frame:nth-child(50) {
+    background-color: black; }
+  .frame:nth-child(51) {
+    background-color: black; }
+  .frame:nth-child(52) {
+    background-color: black; }
+  .frame:nth-child(53) {
+    background-color: black; }
+  .frame:nth-child(54) {
+    background-color: black; }
+  .frame:nth-child(55) {
+    background-color: black; }
+  .frame:nth-child(56) {
+    background-color: black; }
+  .frame:nth-child(57) {
+    background-color: black; }
+  .frame:nth-child(58) {
+    background-color: black; }
+  .frame:nth-child(59) {
+    background-color: black; }
+  .frame:nth-child(60) {
+    background-color: black; }
+  .frame:nth-child(61) {
+    background-color: black; }
+  .frame:nth-child(62) {
+    background-color: black; }
+  .frame:nth-child(63) {
+    background-color: black; }
+  .frame:nth-child(64) {
+    background-color: black; }
+  .frame:nth-child(65) {
+    background-color: black; }
+  .frame:nth-child(66) {
+    background-color: black; }
+  .frame:nth-child(67) {
+    background-color: black; }
+  .frame:nth-child(68) {
+    background-color: black; }
+  .frame:nth-child(69) {
+    background-color: black; }
+  .frame:nth-child(70) {
+    background-color: black; }
+  .frame:nth-child(71) {
+    background-color: black; }
+  .frame:nth-child(72) {
+    background-color: black; }
+  .frame:nth-child(73) {
+    background-color: black; }
+  .frame:nth-child(74) {
+    background-color: black; }
+  .frame:nth-child(75) {
+    background-color: black; }
+  .frame:nth-child(76) {
+    background-color: black; }
+  .frame:nth-child(77) {
+    background-color: black; }
+  .frame:nth-child(78) {
+    background-color: black; }
+  .frame:nth-child(79) {
+    background-color: black; }
+  .frame:nth-child(80) {
+    background-color: black; }
+  .frame:nth-child(81) {
+    background-color: black; }
+  .frame:nth-child(82) {
+    background-color: black; }
+  .frame:nth-child(83) {
+    background-color: black; }
+  .frame:nth-child(84) {
+    background-color: black; }
+  .frame:nth-child(85) {
+    background-color: black; }
+  .frame:nth-child(86) {
+    background-color: black; }
+  .frame:nth-child(87) {
+    background-color: black; }
+  .frame:nth-child(88) {
+    background-color: black; }
+  .frame:nth-child(89) {
+    background-color: black; }
+  .frame:nth-child(90) {
+    background-color: black; }
+  .frame:nth-child(91) {
+    background-color: black; }
+  .frame:nth-child(92) {
+    background-color: black; }
+  .frame:nth-child(93) {
+    background-color: black; }
+  .frame:nth-child(94) {
+    background-color: black; }
+  .frame:nth-child(95) {
+    background-color: black; }
+  .frame:nth-child(96) {
+    background-color: black; }
+  .frame:nth-child(97) {
+    background-color: black; }
+  .frame:nth-child(98) {
+    background-color: black; }
+  .frame:nth-child(99) {
+    background-color: black; }
+  .frame:nth-child(100) {
+    background-color: black; }
+
+.text-on-photo {
+  position: relative; }
+  .text-on-photo .rect {
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    background: white;
+    font-size: 12px; }
+
+.header {
+  background: #630000;
+  color: white;
+  box-shadow: 0 5px 10px #9f9090;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around; }
+  .header .photo-logo {
+    display: block;
+    width: 50px;
+    height: 50px;  
+    margin: 5px 0px 5px 40px;
+  }
+  .header .name-site {
+    font-size: 20px; }
+    .header .name-site .one {
+      color: #ffc0c0; }
+  .header .button {
+    background: white;
+    color: #7c0101;
+    display: block;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 4px;
+    margin: 20px 40px 20px 0px;
+    font-size: 15px; }
+
+.content {
+  color: #7c0101; 
+margin-left: 25px;
+}
+
+.content-photo {
+  display: flex;
+  flex-wrap: wrap; }
+  .content-photo .photo {
+    display: block;
+    width: 200px;
+    height: 150px; }
+
+.footer {
+  padding: 0;
+  background: #e5a9a9;
+  color: #7c0101;
+  margin-left: 10px auto;
+  border-top: 3px solid #7c0101;
+  display: flex;
+  justify-content: space-around; }
+  .footer .photo-footer {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: -10 auto;
+    border-radius: 50%; }
+  .footer button {
+    display: block;
+    background-color: white;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 12px;
+    margin: 20px -90px 20px 0px;
+    font-size: 15px; }
+    .footer button a {
+      color: #7c0101; }
+
+/*# sourceMappingURL=style.css.map */

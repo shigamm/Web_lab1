@@ -1,0 +1,147 @@
+$colorHeader:#740000;
+$colorShadow:#9f9090;
+$colorTitle:#7c0101;
+$one:#ffb4b4;
+$w:white;
+
+$aaa:#f8f9fa;
+$bbb:#e9ecef;
+$ccc:#dee2e6;
+$ddd:#ced4da;
+$eee:#adb5bd;
+
+@mixin bc($b,$c)
+{
+	background:$b;
+	color:$c
+}
+
+.center-container{
+	
+	@include bc($w,#d30000);//Примесь
+	width: 1000px; 
+    margin: auto; 
+	.blok{
+		width:760px;
+		margin: auto;		
+	}
+	
+}
+
+.frame{
+
+	margin-right:50px;
+	width:200px;
+	
+	@for $i from 1 through 100{
+		&:nth-child(#{$i}){
+			background-color: rgb(255 - $i*10,255 - $i*10,255 - $i*10)
+		}
+	}
+	
+}
+
+.text-on-photo{
+
+	position:relative;
+	
+	.rect{
+		
+		position:absolute;
+		top:5px;
+		left:5px;
+		font-size:12px;
+
+	}
+}
+
+.header{
+	
+	@include bc($colorHeader,$w);//Примесь
+	box-shadow: 0 5px 10px $colorShadow;
+	border-radius:10px;
+	display:flex;//FLEX-расположение в шапке логотипа, текста и кнопки
+	justify-content:space-around;	
+	
+	.photo-logo{		
+		
+		display:block;
+		width:50px;
+		height:50px;	
+		margin-left: 80px;	
+		
+	}
+	
+	.name-site{
+		
+		font-size:20px;		
+				
+			.one{
+				color:$one;
+			}		
+		
+	}
+	
+	.button{
+		
+		@include bc($w,$colorTitle);//Примесь
+		display:block; 
+		border-width: 2px;
+		border-color: $w; 
+		border-radius:4px;
+		margin-right:100px;
+		font-size:15px;		
+
+		
+	}
+}
+
+.content{
+	color:$colorTitle;	
+
+}
+
+.content-photo{
+	
+	display:flex;//FLEX-расположение блоков с картинками(3 колонки) 
+	flex-wrap:wrap;
+	
+	
+	.photo{
+		display:block;
+		width:200px;
+		height:150px;
+	}	
+	
+}
+
+.footer{
+	padding:0;
+	@include bc($colorHeader,$colorTitle);//Примесь
+	
+	margin:0px auto;
+	border-top:3px solid $colorTitle;
+	display:flex;//FLEX-расположение в подвале кнопки и текста
+	justify-content:space-around;
+	.photo-footer{
+		display:block;
+		width:30px;
+		height:30px;
+		margin:0 auto;
+		border-radius:50%;
+		
+	}
+	
+	button{
+		display:block;
+		background-color:$w; 
+		border-width: 2px;
+		border-color: $w; 
+		border-radius:12px;
+		margin:20px 0px 20px 0px;
+		font-size:15px;
+		a{
+			color:$colorTitle;
+		}
+	}
+}
